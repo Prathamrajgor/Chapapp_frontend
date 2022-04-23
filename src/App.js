@@ -6,7 +6,7 @@ import Reactscroll from "react-scroll-to-bottom";
 // import { data } from "autoprefixer";
 import image from "./chat.png";
 
-const socket = io("https://chatapp-by-pratham.herokuapp.com/");
+const socket = io("http://localhost:5000");
 function App() {
   const [username, Newusername] = useState("");   
   const [formDisplay, NewformDisplay] = useState([
